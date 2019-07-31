@@ -112,6 +112,10 @@ a {
   &--col {
     flex-direction: column;
   }
+
+  &--col-3 {
+    flex-basis: 33.33%;
+  }
 }
 
 @media #{$large-up} {
